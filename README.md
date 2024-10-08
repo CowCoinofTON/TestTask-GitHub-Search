@@ -9,3 +9,5 @@ index.php: для веб-интерфейса.
 api.php: для API запросов.
 
 sql.sql: Таблица для базы данных
+
+Пример готового сайта: https://divination-ai.ru/github_search/
