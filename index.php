@@ -73,6 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div class="card mb-4">
                 <div class="card-body">
                     <h5 class="card-title"><?php echo htmlspecialchars($repo['name']); ?></h5>
+		    <p><img src="<?php echo $repo['owner']['avatar_url']; ?>" class="rounded-circle" style="width: 75px;" alt="Avatar" /></p>
                     <p class="card-text">Автор: <?php echo htmlspecialchars($repo['owner']['login']); ?></p>
                     <p class="card-text">Звезды: <?php echo $repo['stargazers_count']; ?></p>
                     <p class="card-text">Просмотры: <?php echo $repo['watchers_count']; ?></p>
